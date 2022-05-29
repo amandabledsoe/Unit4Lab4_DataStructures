@@ -13,3 +13,18 @@ C:\Users\xando\source\repos\Unit4Lab4_DataStructures\Unit4Lab4_DataStructures\ob
 C:\Users\xando\source\repos\Unit4Lab4_DataStructures\Unit4Lab4_DataStructures\obj\Debug\net6.0\Unit4Lab4_DataStructures.pdb
 C:\Users\xando\source\repos\Unit4Lab4_DataStructures\Unit4Lab4_DataStructures\obj\Debug\net6.0\Unit4Lab4_DataStructures.genruntimeconfig.cache
 C:\Users\xando\source\repos\Unit4Lab4_DataStructures\Unit4Lab4_DataStructures\obj\Debug\net6.0\ref\Unit4Lab4_DataStructures.dll
+C:\Grand Circus Master Repository 2022\CODE\UNIT 4 - OOP\LABS\Unit4Lab4_DataStructures\Unit4Lab4_DataStructures\bin\Debug\net6.0\Unit4Lab4_DataStructures.exe
+C:\Grand Circus Master Repository 2022\CODE\UNIT 4 - OOP\LABS\Unit4Lab4_DataStructures\Unit4Lab4_DataStructures\bin\Debug\net6.0\Unit4Lab4_DataStructures.deps.json
+C:\Grand Circus Master Repository 2022\CODE\UNIT 4 - OOP\LABS\Unit4Lab4_DataStructures\Unit4Lab4_DataStructures\bin\Debug\net6.0\Unit4Lab4_DataStructures.runtimeconfig.json
+C:\Grand Circus Master Repository 2022\CODE\UNIT 4 - OOP\LABS\Unit4Lab4_DataStructures\Unit4Lab4_DataStructures\bin\Debug\net6.0\Unit4Lab4_DataStructures.dll
+C:\Grand Circus Master Repository 2022\CODE\UNIT 4 - OOP\LABS\Unit4Lab4_DataStructures\Unit4Lab4_DataStructures\bin\Debug\net6.0\Unit4Lab4_DataStructures.pdb
+C:\Grand Circus Master Repository 2022\CODE\UNIT 4 - OOP\LABS\Unit4Lab4_DataStructures\Unit4Lab4_DataStructures\obj\Debug\net6.0\Unit4Lab4_DataStructures.csproj.AssemblyReference.cache
+C:\Grand Circus Master Repository 2022\CODE\UNIT 4 - OOP\LABS\Unit4Lab4_DataStructures\Unit4Lab4_DataStructures\obj\Debug\net6.0\Unit4Lab4_DataStructures.GeneratedMSBuildEditorConfig.editorconfig
+C:\Grand Circus Master Repository 2022\CODE\UNIT 4 - OOP\LABS\Unit4Lab4_DataStructures\Unit4Lab4_DataStructures\obj\Debug\net6.0\Unit4Lab4_DataStructures.AssemblyInfoInputs.cache
+C:\Grand Circus Master Repository 2022\CODE\UNIT 4 - OOP\LABS\Unit4Lab4_DataStructures\Unit4Lab4_DataStructures\obj\Debug\net6.0\Unit4Lab4_DataStructures.AssemblyInfo.cs
+C:\Grand Circus Master Repository 2022\CODE\UNIT 4 - OOP\LABS\Unit4Lab4_DataStructures\Unit4Lab4_DataStructures\obj\Debug\net6.0\Unit4Lab4_DataStructures.csproj.CoreCompileInputs.cache
+C:\Grand Circus Master Repository 2022\CODE\UNIT 4 - OOP\LABS\Unit4Lab4_DataStructures\Unit4Lab4_DataStructures\obj\Debug\net6.0\Unit4Lab4_DataStructures.dll
+C:\Grand Circus Master Repository 2022\CODE\UNIT 4 - OOP\LABS\Unit4Lab4_DataStructures\Unit4Lab4_DataStructures\obj\Debug\net6.0\refint\Unit4Lab4_DataStructures.dll
+C:\Grand Circus Master Repository 2022\CODE\UNIT 4 - OOP\LABS\Unit4Lab4_DataStructures\Unit4Lab4_DataStructures\obj\Debug\net6.0\Unit4Lab4_DataStructures.pdb
+C:\Grand Circus Master Repository 2022\CODE\UNIT 4 - OOP\LABS\Unit4Lab4_DataStructures\Unit4Lab4_DataStructures\obj\Debug\net6.0\Unit4Lab4_DataStructures.genruntimeconfig.cache
+C:\Grand Circus Master Repository 2022\CODE\UNIT 4 - OOP\LABS\Unit4Lab4_DataStructures\Unit4Lab4_DataStructures\obj\Debug\net6.0\ref\Unit4Lab4_DataStructures.dll

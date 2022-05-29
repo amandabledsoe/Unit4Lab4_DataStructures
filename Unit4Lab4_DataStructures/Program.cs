@@ -10,9 +10,26 @@ while (runningProgram)
     Console.Write("Enter your word or phrase: ");
     string userEntry = Console.ReadLine();
     Console.WriteLine();
-    Console.WriteLine($"Your word/phrase reversed in full is {ReverseFullInput(userEntry)}");
+
+    Console.Write($"Your word/phrase reversed in full is ");
+    Console.ForegroundColor = ConsoleColor.DarkGreen;
+    Console.Write(ReverseFullInput(userEntry));
+    Console.ResetColor();
     Console.WriteLine();
-    Console.WriteLine($"Your word/phrase reversed by word is {ReverseEachWord(userEntry)}");
+    Console.WriteLine();
+
+    Console.Write($"Your word/phrase reversed by word without using a Stack is ");
+    Console.ForegroundColor = ConsoleColor.DarkBlue;
+    Console.Write(ReverseEachWordWithoutAStack(userEntry));
+    Console.ResetColor();
+    Console.WriteLine();
+    Console.WriteLine();
+
+    Console.Write($"Your word/phrase reversed by word using a Stack is ");
+    Console.ForegroundColor = ConsoleColor.DarkRed;
+    ReverseWordUsingAStack(userEntry);
+    Console.ResetColor();
+
     PauseAndClearScreen();
 
     runningProgram = false;
@@ -35,29 +52,56 @@ static string ReverseFullInput(string userEntry)
     return new string(letters);
 }
 
-static string ReverseEachWord(string userEntry)
+static string ReverseEachWordWithoutAStack(string userEntry)
 {
-    StringBuilder reverseWordString = new StringBuilder();
-    List<char> charlist = new List<char>();
+    StringBuilder reverseString = new StringBuilder();
+    List<char> characterList = new List<char>();
     for (int i = 0; i < userEntry.Length; i++)
     {
         if (userEntry[i] == ' ' || i == userEntry.Length - 1)
         {
             if (i == userEntry.Length - 1)
             {
-                charlist.Add(userEntry[i]);
+                characterList.Add(userEntry[i]);
             }
-            for (int j = charlist.Count - 1; j >= 0; j--)
+            for (int j = characterList.Count - 1; j >= 0; j--)
             {
-                reverseWordString.Append(charlist[j]);
+                reverseString.Append(characterList[j]);
             }
-            reverseWordString.Append(' ');
-            charlist = new List<char>();
+            reverseString.Append(' ');
+            characterList = new List<char>();
         }
         else
         {
-            charlist.Add(userEntry[i]);
+            characterList.Add(userEntry[i]);
         }
     }
-    return reverseWordString.ToString();
+    return reverseString.ToString();
+}
+static void ReverseWordUsingAStack(string userEntry)
+{
+    Stack<char> charStack = new Stack<char>();
+    // Traverse the given string and push all characters
+    // to stack until we see a space.  
+    for (int i = 0; i < userEntry.Length; ++i)
+    {
+        if (userEntry[i] != ' ')
+        {
+            charStack.Push(userEntry[i]);
+        }
+        // When seeing a space, then print contents of the stack.  
+        else
+        {
+            while (charStack.Count > 0)
+            {
+                Console.Write(charStack.Pop());
+            }
+            Console.Write(" ");
+        }
+    }
+    // Since there may not be space after last word.  
+    while (charStack.Count > 0)
+    {
+        Console.Write(charStack.Pop());
+    }
 }
